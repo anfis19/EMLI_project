@@ -1,0 +1,17 @@
+[4.236s] Invoking command in '/home/pi/ros2emli_ws/build/ledcontrol': PYTHONPATH=/home/pi/ros2emli_ws/build/ledcontrol/prefix_override:/home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/ledcontrol/build --no-deps install_data
+[5.461s] running develop
+[6.197s] running egg_info
+[6.198s] writing ledcontrol.egg-info/PKG-INFO
+[6.199s] writing dependency_links to ledcontrol.egg-info/dependency_links.txt
+[6.200s] writing entry points to ledcontrol.egg-info/entry_points.txt
+[6.201s] writing requirements to ledcontrol.egg-info/requires.txt
+[6.201s] writing top-level names to ledcontrol.egg-info/top_level.txt
+[6.210s] reading manifest file 'ledcontrol.egg-info/SOURCES.txt'
+[6.214s] writing manifest file 'ledcontrol.egg-info/SOURCES.txt'
+[6.220s] running build_ext
+[6.221s] Creating /home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages/ledcontrol.egg-link (link to .)
+[6.225s] Installing node script to /home/pi/ros2emli_ws/install/ledcontrol/lib/ledcontrol
+[6.226s] 
+[6.227s] Installed /home/pi/ros2emli_ws/build/ledcontrol
+[6.227s] running install_data
+[6.448s] Invoked command in '/home/pi/ros2emli_ws/build/ledcontrol' returned '0': PYTHONPATH=/home/pi/ros2emli_ws/build/ledcontrol/prefix_override:/home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/ledcontrol/build --no-deps install_data

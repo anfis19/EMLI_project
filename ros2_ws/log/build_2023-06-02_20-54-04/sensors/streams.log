@@ -1,0 +1,26 @@
+[3.892s] Invoking command in '/home/pi/ros2emli_ws/build/sensors': PYTHONPATH=/home/pi/ros2emli_ws/build/sensors/prefix_override:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/sensors/build --no-deps install_data
+[5.114s] running develop
+[5.832s] running egg_info
+[5.832s] creating sensors.egg-info
+[5.834s] writing sensors.egg-info/PKG-INFO
+[5.836s] writing dependency_links to sensors.egg-info/dependency_links.txt
+[5.837s] writing entry points to sensors.egg-info/entry_points.txt
+[5.838s] writing requirements to sensors.egg-info/requires.txt
+[5.838s] writing top-level names to sensors.egg-info/top_level.txt
+[5.839s] writing manifest file 'sensors.egg-info/SOURCES.txt'
+[5.843s] reading manifest file 'sensors.egg-info/SOURCES.txt'
+[5.845s] writing manifest file 'sensors.egg-info/SOURCES.txt'
+[5.852s] running build_ext
+[5.853s] Creating /home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages/sensors.egg-link (link to .)
+[5.857s] Installing talker script to /home/pi/ros2emli_ws/install/sensors/lib/sensors
+[5.858s] 
+[5.859s] Installed /home/pi/ros2emli_ws/build/sensors
+[5.861s] running install_data
+[5.862s] creating /home/pi/ros2emli_ws/install/sensors/share/ament_index
+[5.865s] creating /home/pi/ros2emli_ws/install/sensors/share/ament_index/resource_index
+[5.867s] creating /home/pi/ros2emli_ws/install/sensors/share/ament_index/resource_index/packages
+[5.870s] copying resource/sensors -> /home/pi/ros2emli_ws/install/sensors/share/ament_index/resource_index/packages
+[5.873s] copying package.xml -> /home/pi/ros2emli_ws/install/sensors/share/sensors
+[5.875s] creating /home/pi/ros2emli_ws/install/sensors/share/sensors/launch
+[5.879s] copying launch/sensors_launch.py -> /home/pi/ros2emli_ws/install/sensors/share/sensors/launch
+[6.188s] Invoked command in '/home/pi/ros2emli_ws/build/sensors' returned '0': PYTHONPATH=/home/pi/ros2emli_ws/build/sensors/prefix_override:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/sensors/build --no-deps install_data

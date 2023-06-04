@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing sensors.egg-info/PKG-INFO
+writing dependency_links to sensors.egg-info/dependency_links.txt
+writing entry points to sensors.egg-info/entry_points.txt
+writing requirements to sensors.egg-info/requires.txt
+writing top-level names to sensors.egg-info/top_level.txt
+reading manifest file 'sensors.egg-info/SOURCES.txt'
+writing manifest file 'sensors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages/sensors.egg-link (link to .)
+Installing talker script to /home/pi/ros2emli_ws/install/sensors/lib/sensors
+
+Installed /home/pi/ros2emli_ws/build/sensors
+running install_data
+copying launch/sensors_launch.py -> /home/pi/ros2emli_ws/install/sensors/share/sensors/launch

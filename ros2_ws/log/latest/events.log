@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.001532] (ledcontrol) JobQueued: {'identifier': 'ledcontrol', 'dependencies': OrderedDict()}
+[0.002123] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.002213] (ledcontrol) JobStarted: {'identifier': 'ledcontrol'}
+[0.088591] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.099086] (-) TimerEvent: {}
+[0.200171] (-) TimerEvent: {}
+[0.300838] (-) TimerEvent: {}
+[0.401467] (-) TimerEvent: {}
+[0.502136] (-) TimerEvent: {}
+[0.602771] (-) TimerEvent: {}
+[0.703420] (-) TimerEvent: {}
+[0.804065] (-) TimerEvent: {}
+[0.904717] (-) TimerEvent: {}
+[1.005351] (-) TimerEvent: {}
+[1.105992] (-) TimerEvent: {}
+[1.206749] (-) TimerEvent: {}
+[1.307548] (-) TimerEvent: {}
+[1.408190] (-) TimerEvent: {}
+[1.508917] (-) TimerEvent: {}
+[1.609653] (-) TimerEvent: {}
+[1.710276] (-) TimerEvent: {}
+[1.810873] (-) TimerEvent: {}
+[1.911471] (-) TimerEvent: {}
+[2.012062] (-) TimerEvent: {}
+[2.112656] (-) TimerEvent: {}
+[2.213299] (-) TimerEvent: {}
+[2.314029] (-) TimerEvent: {}
+[2.415018] (-) TimerEvent: {}
+[2.515957] (-) TimerEvent: {}
+[2.616674] (-) TimerEvent: {}
+[2.717488] (-) TimerEvent: {}
+[2.818307] (-) TimerEvent: {}
+[2.918945] (-) TimerEvent: {}
+[3.019636] (-) TimerEvent: {}
+[3.120407] (-) TimerEvent: {}
+[3.221213] (-) TimerEvent: {}
+[3.321991] (-) TimerEvent: {}
+[3.422722] (-) TimerEvent: {}
+[3.523498] (-) TimerEvent: {}
+[3.624953] (-) TimerEvent: {}
+[3.726112] (-) TimerEvent: {}
+[3.826982] (-) TimerEvent: {}
+[3.928175] (-) TimerEvent: {}
+[4.029230] (-) TimerEvent: {}
+[4.130982] (-) TimerEvent: {}
+[4.229513] (ledcontrol) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2emli_ws/build/ledcontrol/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/ros2emli_ws/build/ledcontrol', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.61 48980 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/ros2_ws/build/emli_package/build/lib/emli_package/install:/home/pi/ros2emli_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2emli_ws/install/sensors:/home/pi/ros2emli_ws/install/ledcontrol:/home/pi/ros2_ws/install/emli_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2emli_ws/build/ledcontrol', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.61 48980 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2emli_ws/build/ledcontrol/prefix_override:/home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages:/home/pi/ros2emli_ws/build/sensors:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:/home/pi/ros2emli_ws/build/ledcontrol:/home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages:/home/pi/ros2_ws/install/emli_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.239202] (-) TimerEvent: {}
+[4.253984] (sensors) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2emli_ws/build/sensors/build', '--no-deps', 'install_data'], 'cwd': '/home/pi/ros2emli_ws/build/sensors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.42.0.61 48980 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/ros2_ws/build/emli_package/build/lib/emli_package/install:/home/pi/ros2emli_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pi/ros2emli_ws/install/sensors:/home/pi/ros2emli_ws/install/ledcontrol:/home/pi/ros2_ws/install/emli_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pi/ros2emli_ws/build/sensors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.61 48980 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/ros2emli_ws/build/sensors/prefix_override:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:/home/pi/ros2emli_ws/build/sensors:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:/home/pi/ros2emli_ws/build/ledcontrol:/home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages:/home/pi/ros2_ws/install/emli_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.339506] (-) TimerEvent: {}
+[4.440336] (-) TimerEvent: {}
+[4.541376] (-) TimerEvent: {}
+[4.642289] (-) TimerEvent: {}
+[4.742954] (-) TimerEvent: {}
+[4.843692] (-) TimerEvent: {}
+[4.944351] (-) TimerEvent: {}
+[5.045038] (-) TimerEvent: {}
+[5.145739] (-) TimerEvent: {}
+[5.246458] (-) TimerEvent: {}
+[5.347127] (-) TimerEvent: {}
+[5.447938] (-) TimerEvent: {}
+[5.462292] (ledcontrol) StdoutLine: {'line': b'running develop\n'}
+[5.476502] (sensors) StdoutLine: {'line': b'running develop\n'}
+[5.548142] (-) TimerEvent: {}
+[5.648858] (-) TimerEvent: {}
+[5.749546] (-) TimerEvent: {}
+[5.850253] (-) TimerEvent: {}
+[5.950893] (-) TimerEvent: {}
+[6.051525] (-) TimerEvent: {}
+[6.152171] (-) TimerEvent: {}
+[6.198749] (ledcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[6.199517] (ledcontrol) StdoutLine: {'line': b'writing ledcontrol.egg-info/PKG-INFO\n'}
+[6.200480] (ledcontrol) StdoutLine: {'line': b'writing dependency_links to ledcontrol.egg-info/dependency_links.txt\n'}
+[6.201761] (ledcontrol) StdoutLine: {'line': b'writing entry points to ledcontrol.egg-info/entry_points.txt\n'}
+[6.202431] (ledcontrol) StdoutLine: {'line': b'writing requirements to ledcontrol.egg-info/requires.txt\n'}
+[6.203030] (ledcontrol) StdoutLine: {'line': b'writing top-level names to ledcontrol.egg-info/top_level.txt\n'}
+[6.209039] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[6.209672] (sensors) StdoutLine: {'line': b'writing sensors.egg-info/PKG-INFO\n'}
+[6.210833] (sensors) StdoutLine: {'line': b'writing dependency_links to sensors.egg-info/dependency_links.txt\n'}
+[6.211952] (ledcontrol) StdoutLine: {'line': b"reading manifest file 'ledcontrol.egg-info/SOURCES.txt'\n"}
+[6.212591] (sensors) StdoutLine: {'line': b'writing entry points to sensors.egg-info/entry_points.txt\n'}
+[6.213156] (sensors) StdoutLine: {'line': b'writing requirements to sensors.egg-info/requires.txt\n'}
+[6.213874] (sensors) StdoutLine: {'line': b'writing top-level names to sensors.egg-info/top_level.txt\n'}
+[6.216016] (ledcontrol) StdoutLine: {'line': b"writing manifest file 'ledcontrol.egg-info/SOURCES.txt'\n"}
+[6.221906] (ledcontrol) StdoutLine: {'line': b'running build_ext\n'}
+[6.222751] (sensors) StdoutLine: {'line': b"reading manifest file 'sensors.egg-info/SOURCES.txt'\n"}
+[6.223435] (ledcontrol) StdoutLine: {'line': b'Creating /home/pi/ros2emli_ws/install/ledcontrol/lib/python3.10/site-packages/ledcontrol.egg-link (link to .)\n'}
+[6.226603] (sensors) StdoutLine: {'line': b"writing manifest file 'sensors.egg-info/SOURCES.txt'\n"}
+[6.227250] (ledcontrol) StdoutLine: {'line': b'Installing node script to /home/pi/ros2emli_ws/install/ledcontrol/lib/ledcontrol\n'}
+[6.228148] (ledcontrol) StdoutLine: {'line': b'\n'}
+[6.228842] (ledcontrol) StdoutLine: {'line': b'Installed /home/pi/ros2emli_ws/build/ledcontrol\n'}
+[6.229260] (ledcontrol) StdoutLine: {'line': b'running install_data\n'}
+[6.234725] (sensors) StdoutLine: {'line': b'running build_ext\n'}
+[6.236540] (sensors) StdoutLine: {'line': b'Creating /home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages/sensors.egg-link (link to .)\n'}
+[6.243991] (sensors) StdoutLine: {'line': b'Installing talker script to /home/pi/ros2emli_ws/install/sensors/lib/sensors\n'}
+[6.246405] (sensors) StdoutLine: {'line': b'\n'}
+[6.247752] (sensors) StdoutLine: {'line': b'Installed /home/pi/ros2emli_ws/build/sensors\n'}
+[6.248698] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[6.251806] (sensors) StdoutLine: {'line': b'copying launch/sensors_launch.py -> /home/pi/ros2emli_ws/install/sensors/share/sensors/launch\n'}
+[6.252573] (-) TimerEvent: {}
+[6.354708] (-) TimerEvent: {}
+[6.440469] (ledcontrol) CommandEnded: {'returncode': 0}
+[6.456888] (-) TimerEvent: {}
+[6.557563] (-) TimerEvent: {}
+[6.559447] (ledcontrol) JobEnded: {'identifier': 'ledcontrol', 'rc': 0}
+[6.569286] (sensors) CommandEnded: {'returncode': 0}
+[6.616130] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[6.618804] (-) EventReactorShutdown: {}

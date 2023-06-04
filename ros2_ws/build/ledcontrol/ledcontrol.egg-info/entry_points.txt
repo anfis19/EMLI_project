@@ -1,0 +1,3 @@
+[console_scripts]
+node = ledcontrol.led:main
+

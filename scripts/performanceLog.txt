@@ -1,0 +1,16 @@
+date, cputemp[degree], cpuload[%], ramUsed[%], diskspaceLeft[%], doIHaveInternet, transferedBytes, arePackagesUpdated
+Thu Jun 1 01:07:01 PM CEST 2023, 57, 4.4, 79.9871, 93, Is connected, 119065172, Yes
+Thu Jun 1 01:08:01 PM CEST 2023, 59, 3.4, 79.8782, 93, Is connected, 121176633, Yes
+Thu Jun 1 01:09:01 PM CEST 2023, 67, 52.1, 73.4741, 93, Is connected, 124502603, Yes
+Thu Jun 1 01:20:01 PM CEST 2023, 58, 5.5, 69.5976, 93, Is connected, 135028428, Yes
+Thu Jun 1 01:40:01 PM CEST 2023, 59, 4.5, 66.5738, 93, Is connected, 207056476, Yes
+Thu Jun 1 02:00:01 PM CEST 2023, 74, 25.0, 62.4333, 93, Is connected, 667113568, Yes
+Thu Jun 1 02:20:01 PM CEST 2023, 60, 4.2, 59.2571, 94, Is connected, 723329041, Yes
+Thu Jun 1 02:40:01 PM CEST 2023, 58, 5.4, 59.1536, 94, Is connected, 731283156, Yes
+Thu Jun 1 03:00:01 PM CEST 2023, 62, 3.3, 66.1965, 94, Is connected, 24340037, Yes
+Thu Jun 1 03:20:01 PM CEST 2023, 70, 23.0, 69.4265, 94, Is connected, 78826815, Yes
+Thu Jun 1 03:40:01 PM CEST 2023, 63, 2.3, 76.7728, 94, Is connected5198727, Yes
+Thu Jun 1 03:40:29 PM CEST 2023, 62, 2.2, 76.8184, 94, Is connected, 5238332, Yes
+Thu Jun 1 03:43:34 PM CEST 2023, 61, 22.1, 76.2269, 94, Is connected, 5912966, Yes
+Thu Jun 1 03:46:27 PM CEST 2023, 60, 2.2, 76.5019, 94, Is connected, 6528910, Yes
+, 58, 1.1, 76.5023, 94, Is connected, 6672656, Yes

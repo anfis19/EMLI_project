@@ -1,0 +1,18 @@
+[4.169s] Invoking command in '/home/pi/ros2emli_ws/build/sensors': PYTHONPATH=/home/pi/ros2emli_ws/build/sensors/prefix_override:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/sensors/build --no-deps install_data
+[5.383s] running develop
+[6.116s] running egg_info
+[6.116s] writing sensors.egg-info/PKG-INFO
+[6.117s] writing dependency_links to sensors.egg-info/dependency_links.txt
+[6.119s] writing entry points to sensors.egg-info/entry_points.txt
+[6.120s] writing requirements to sensors.egg-info/requires.txt
+[6.120s] writing top-level names to sensors.egg-info/top_level.txt
+[6.129s] reading manifest file 'sensors.egg-info/SOURCES.txt'
+[6.133s] writing manifest file 'sensors.egg-info/SOURCES.txt'
+[6.142s] running build_ext
+[6.143s] Creating /home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages/sensors.egg-link (link to .)
+[6.151s] Installing talker script to /home/pi/ros2emli_ws/install/sensors/lib/sensors
+[6.154s] 
+[6.155s] Installed /home/pi/ros2emli_ws/build/sensors
+[6.155s] running install_data
+[6.159s] copying launch/sensors_launch.py -> /home/pi/ros2emli_ws/install/sensors/share/sensors/launch
+[6.476s] Invoked command in '/home/pi/ros2emli_ws/build/sensors' returned '0': PYTHONPATH=/home/pi/ros2emli_ws/build/sensors/prefix_override:/home/pi/ros2emli_ws/install/sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pi/ros2emli_ws/build/sensors/build --no-deps install_data
