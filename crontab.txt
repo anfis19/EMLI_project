@@ -1,5 +1,4 @@
 MAILTO=pi
-* */12 * * * /home/pi/scripts/activateWaterpump.sh
 * */1 * * * /home/pi/scripts/logPerformance.sh
 * */1 * * * /home/pi/scripts/logSensors.sh
 @reboot /home/pi/scripts/buttonPump.sh
