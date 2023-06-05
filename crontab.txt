@@ -1,0 +1,8 @@
+MAILTO=pi
+* */12 * * * /home/pi/scripts/activateWaterpump.sh
+* */1 * * * /home/pi/scripts/logPerformance.sh
+* */1 * * * /home/pi/scripts/logSensors.sh
+@reboot /home/pi/scripts/buttonPump.sh
+@reboot /home/pi/scripts/pump.sh
+@reboot bash -ic "sh /home/pi/ros2emli_ws/src/sensors/scripts/startROSatBoot.sh"
+@reboot bash -ic "ros2 launch /home/pi/ros2emli_ws/src/ledcontrol/launch/led_la>
