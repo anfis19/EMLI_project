@@ -7,4 +7,4 @@ cat /dev/ttyACM0
 
 #source /opt/ros/humble/setup.bash
 #source /home/pi/ros2emli_ws/install/setup.bash
-exec /opt/ros/humble/bin/ros2 launch sensors sensors_launch.py
+#exec /opt/ros/humble/bin/ros2 launch sensors sensors_launch.py
