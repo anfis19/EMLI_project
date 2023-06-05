@@ -15,8 +15,8 @@ The following folders are present in the repository:
   * All the scripts used to control the system, are written to just be kept in this folder. 
   * Should be placed in the /home/pi directory
 * .bashrc
- * s
+  * s
 * crontab.txt
- * Contents of this should be added to crontab using the command "crontab -e"
- * A line should also be added to "sudo crontab -e"
-  * The line is: @reboot /home/pi/scripts/runatstartup.sh 
+  * Contents of this should be added to crontab using the command "crontab -e"
+  * A line should also be added to "sudo crontab -e"
+   * The line is: @reboot /home/pi/scripts/runatstartup.sh 
