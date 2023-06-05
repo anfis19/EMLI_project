@@ -15,7 +15,7 @@ while true; do
             count=0
         fi
     fi
-    sleep 5
+    sleep 3600
     count=$(($count + $var))
     echo $count
 done
